@@ -1,0 +1,28 @@
+
+f	java:S125$"<This block of commented-out lines of code should be removed.(ÙñHÀRMAJORZ
+CODE_SMELL
+^
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8‚ñæÖ¯1HÁRMINORZ
+CODE_SMELL
+ˆ
+java:S1128"PRemove this unused import 'org.springframework.data.mongodb.core.MongoTemplate'.(áÌ¨âÿÿÿÿÿ8‚ñæÖ¯1HÃRMINORZ
+CODE_SMELL
+‡
+java:S1128"TRemove this unused import 'org.springframework.data.mongodb.repository.Aggregation'.(İÉ´¾8‚ñæÖ¯1HÅRMINORZ
+CODE_SMELL
+v
+java:S1128">Remove this unused import 'com.ifs.dto.InterviewCountByMonth'.(ï·‡Æüÿÿÿÿ8‚ñæÖ¯1HÇRMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(öâ¬ëùÿÿÿÿHÉRMINORZ
+CODE_SMELL
+h
+java:S1066•"/Merge this if statement with the enclosing one.(àİ±Ôıÿÿÿÿ8–½¡Ô¯1HÊRMAJORZ
+CODE_SMELL
+d
+java:S1128",Remove this unused import 'java.time.Month'.(¤‚Éøÿÿÿÿ8öñŸ×¯1HÏRMINORZ
+CODE_SMELL
+\
+java:S3740"/Provide the parametrized type for this generic.(áåÄHÑRMAJORZ
+CODE_SMELL
+h	java:S125É"<This block of commented-out lines of code should be removed.(¿¼¢ÔHÒRMAJORZ
+CODE_SMELL

@@ -1,0 +1,33 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: microservice1
+        uri: lb://MICROSERVICE1
+        predicates:
+        - Path=/ms1/**
+        filters:
+        - AuthenticationFilter
+        
+      - id: microservice2
+        uri: lb://MICROSERVICE2
+        predicates:
+        - Path=/ms2/**
+        filters:
+        - AuthenticationFilter
+        
+      - id: identity-service
+        uri: lb://IDENTITY-SERVICE
+        predicates:
+        - Path=/auth/**
+        filters:
+        - AuthenticationFilter  
+      
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+              allowedOrigins: "*"
+              allowedMethods: "*"
+              allowedHeaders: "*"

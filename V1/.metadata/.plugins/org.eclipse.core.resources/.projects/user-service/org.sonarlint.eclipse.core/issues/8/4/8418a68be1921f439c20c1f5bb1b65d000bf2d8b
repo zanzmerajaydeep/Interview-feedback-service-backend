@@ -1,0 +1,7 @@
+
+§
+java:S1128"vRemove this unused import 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'.(Æ­¹¬øÿÿÿÿH¯RMINORZ
+CODE_SMELL
+•
+java:S3305 "aInject this field value directly into "defaultSecurityFilterChain", the only method that uses it.(£šÈÙûÿÿÿÿH±RCRITICALZ
+CODE_SMELL

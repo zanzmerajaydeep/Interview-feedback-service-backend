@@ -1,0 +1,40 @@
+package com.ifs.gateway.filter;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.gateway.filter.GatewayFilter;
+import org.springframework.cloud.gateway.filter.factory.AbstractGatewayFilterFactory;
+import org.springframework.stereotype.Component;
+
+
+
+@Component
+public class DemoFilter extends AbstractGatewayFilterFactory<DemoFilter.ConfigDemo> {
+	
+	@Autowired
+	private RouteValidator validator;
+
+	public DemoFilter() {
+		super(ConfigDemo.class);
+	} 
+	
+	public static class ConfigDemo {
+	}
+
+	@Override
+	public GatewayFilter apply(ConfigDemo config) {
+		return ((exchange, chain) -> {
+			
+			if(validator.isSecuredHR.test(exchange.getRequest())) {
+				System.out.println("in the secure hr part---"+exchange.getRequest().getHeaders());
+			}
+			return chain.filter(exchange);
+			
+		});
+		
+	
+		
+	}
+	
+
+
+}

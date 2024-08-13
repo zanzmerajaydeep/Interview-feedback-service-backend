@@ -1,0 +1,11 @@
+
+i
+java:S1128
+"=Remove this unused import 'io.swagger.v3.oas.models.OpenAPI'.(±HÂRMINORZ
+CODE_SMELL
+q
+java:S1128	"@Remove this unused import 'io.swagger.v3.oas.models.Components'.(üŠÍœøÿÿÿÿHÄRMINORZ
+CODE_SMELL
+~
+java:S1128"RRemove this unused import 'io.swagger.v3.oas.models.security.SecurityRequirement'.(º…ÏHÆRMINORZ
+CODE_SMELL

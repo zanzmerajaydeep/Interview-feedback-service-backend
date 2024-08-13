@@ -1,0 +1,25 @@
+package com.ifs.gateway.filter;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.gateway.filter.factory.AbstractGatewayFilterFactory;
+import org.springframework.stereotype.Component;
+
+
+
+@Component
+public class DemoFilter extends AbstractGatewayFilterFactory<DemoFilter.ConfigDemo> {
+	
+	@Autowired
+	private RouteValidator validator;
+
+	public public DemoFilter() {
+		// TODO Auto-generated constructor stub
+		super(ConfigDemo.class);
+	} 
+	
+	public static class ConfigDemo {
+	}
+	
+
+
+}

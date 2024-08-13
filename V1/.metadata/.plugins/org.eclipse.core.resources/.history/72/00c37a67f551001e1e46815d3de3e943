@@ -1,0 +1,5 @@
+package com.ifs.gateway.exception;
+
+public class ErrorDetails {
+
+}

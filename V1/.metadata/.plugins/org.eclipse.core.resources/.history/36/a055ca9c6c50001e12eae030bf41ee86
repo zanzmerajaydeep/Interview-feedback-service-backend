@@ -1,0 +1,5 @@
+package com.ifs.security.jwt;
+
+public class Jwt {
+
+}

@@ -1,0 +1,13 @@
+
+l	java:S125"<This block of commented-out lines of code should be removed.(˜÷ץ‎ÿÿÿÿHצRMAJORZ
+CODE_SMELL
+
+java:S1128"NRemove this unused import 'org.springframework.data.mongodb.repository.Query'.(ַ§ע•רÿÿÿÿHרRMINORZ
+CODE_SMELL
+o
+java:S1128
+">Remove this unused import 'com.ifs.dto.InterviewCountByMonth'.(ן·‡ֶüÿÿÿÿHתRMINORZ
+CODE_SMELL
+
+java:S1128"PRemove this unused import 'org.springframework.data.mongodb.core.MongoTemplate'.(בּ¨גÿÿÿÿÿHüRMINORZ
+CODE_SMELL

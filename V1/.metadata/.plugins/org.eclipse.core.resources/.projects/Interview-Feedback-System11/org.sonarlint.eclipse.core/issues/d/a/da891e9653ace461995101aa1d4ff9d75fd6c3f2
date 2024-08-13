@@ -1,0 +1,23 @@
+
+l	java:S125v"<This block of commented-out lines of code should be removed.(è“şÿÿÿÿHÙRMAJORZ
+CODE_SMELL
+i	java:S1068"9Replace this use of System.out or System.err by a logger.(èÉĞêøÿÿÿÿHÚRMAJORZ
+CODE_SMELL
+l	java:S125q"<This block of commented-out lines of code should be removed.(ñƒ„×úÿÿÿÿHÛRMAJORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(öâ¬ëùÿÿÿÿHÜRMINORZ
+CODE_SMELL
+i	java:S106&"9Replace this use of System.out or System.err by a logger.(”Ò¦¢ûÿÿÿÿHİRMAJORZ
+CODE_SMELL
+f
+java:S1118":Add a private constructor to hide the implicit public one.(ÕÙHŞRMAJORZ
+CODE_SMELL
+|	java:S117^"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô¤ª¼HßRMINORZ
+CODE_SMELL
+g	java:S125;"<This block of commented-out lines of code should be removed.(†”œHàRMAJORZ
+CODE_SMELL
+l	java:S1259"<This block of commented-out lines of code should be removed.(ÃÕİÉşÿÿÿÿHâRMAJORZ
+CODE_SMELL
+`
+java:S3740"/Provide the parametrized type for this generic.(·ÖôéúÿÿÿÿHãRMAJORZ
+CODE_SMELL
